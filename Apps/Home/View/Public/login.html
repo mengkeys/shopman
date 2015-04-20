@@ -1,0 +1,15 @@
+<!-- 登录 -->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+   <form action="{:U('login')}" method="post">
+       <input type="text" name="user" id="user" placeholder="请输入账号" value="">
+       <input type="password" name="pass" id="pass" placeholder="请输入密码" value="">
+       <a href="{:U('verify')}"><img src="{:U('verify'}" /></a>
+   </form>
+</body>
+</html>
